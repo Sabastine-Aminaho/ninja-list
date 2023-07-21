@@ -1,0 +1,17 @@
+.single {
+    padding: 2px 16px;
+    background: #fff;
+    display: block;
+    margin: 20px 10px;
+    /* border-left: 8px block #fff; */
+    border-left: 8px solid #777;
+}
+.single:hover {
+    border-left: 8px solid #4979ff;
+}
+/* Styles for phones */
+@media (max-width: 767px) {
+    .single {
+        text-align: center;
+    }
+}
